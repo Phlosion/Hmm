@@ -2,16 +2,16 @@ println("Hello World");
 String firstSentence = "You said Hello!";
 String secondSentence = "Mr. Mercer counts to 10, by 1.";
 //println(firstSentence);
-println(secondSentence);
+//println(secondSentence);
 //
 //Concatenation
 char x = '!';
 String a = "You";
 String b = "said";
 String c = "Hello";
-String space = " ";
+char space = ' '; //"System Resources", use "char", choose your variables wisely for the hard drive space (location by address)
 //println(a+space+b+space+c+x); //First Method of Concatenation, +
-println(a, b, c+x); //Second Method of Concatenation, notice the spaces (human reading)
+//println(a, b, c+x); //Second Method of Concatenation, notice the spaces (human reading)
 //
 //Concatenate the Second Sentence
 String y = ",";
@@ -23,4 +23,7 @@ String g = "to";
 String ten = "10";
 String h = "by";
 String one = "1";
-println(d+z+space+e+space+f+space+g+space+ten+y+space+h+space+one+z);
+int two = 1; 
+//print(d+z+space+e+space+f+space+g+space+ten+y+space+h+space+one+z+"\n"); //Character escape, \n (NEW LINE), \t (TAB) 
+println("\t"+d+z, e, f, g, ten+y, h, int(one)+two+z); //Casting, making a STRING into a INTEGER
+println( "One plus two is", one+two );
