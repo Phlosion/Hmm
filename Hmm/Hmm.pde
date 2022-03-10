@@ -6,16 +6,16 @@ float thirty; //bigger FLOAT is called DOUBLE
 //
 void setup()
 {
-  String secondSentence = "Mr. Mercer counts to 10, by 1."; //Local Variable
+  String secondSentence = "Lord N counts to a group of Pokémon 10, by 1."; //Local Variable
   //println(secondSentence);
   //Population, Declaring, Valuing
   y = ',';
-  z = ".";
-  d = "Mr";
-  e = "Mercer";
+  z = "";
+  d = "Lord";
+  e = "N";
   f = "counts";
+  ten = "a group of Pokémon";
   g = "to";
-  ten = "10000";
   twenty = int(ten);
   thirty = 10000.0; //must include decimal because it is a float
   h = "by";
